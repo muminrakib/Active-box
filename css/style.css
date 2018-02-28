@@ -1,0 +1,88 @@
+/*fonts customizaion*/
+* {font-family: 'Open Sans', sans-serif}
+h1, h2, h3, h4, h5, h6 {font-weight: bold}
+/*fonts customizaion*/
+body {
+  position: relative;
+}
+.shadow {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5); 
+}
+/*==navbar customization==*/
+.top-nav-collapse {
+    background-color: rgba(18,12,24,0.8) !important;
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: rgba(18,12,24,0.7) !important;
+    }
+}
+#home .navbar .navbar-nav .nav-item.active {
+	background-color: #901b52;
+}
+/*==navbar customization==*/
+/*jumbtron*/
+	#jumbtron {
+		background-image: url('../img/banner.jpg');
+		padding-top: 25vh;
+		padding-bottom: 10vh;
+	}
+@media (min-width: 1080px) {
+	#jumbtron {	
+		padding-top: 40vh;
+		padding-bottom: 15vh;
+		}
+}
+/*jumbtron*/
+
+/*works*/
+	#works div .col-md-4:hover {
+		background-color: #e7e7e7;
+		cursor: copy;
+		box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5); 
+		border-radius: 15px 50px 30px;
+		transition: 0.7s;
+	}
+/*works*/
+/*projects*/
+	#projests div figure img {
+		height: auto;
+		padding: 0;
+		margin: auto;
+	}
+	#projests div figure {
+		margin: 0;
+	}
+/*projects*/
+/*tems*/
+	#team div .row .card i {
+		border: 1px dotted gray;
+		border-radius: 2px;
+		padding: 5px;
+	}
+	#team div .row .card:hover {
+		background-color: #e7e7e7;
+		cursor: copy;
+		box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5); 
+		border-radius: 0px 0px 50px 0;
+		transition: 0.7s;
+	}
+/*tems*/
+/*contact*/
+	#contact {
+	background-color: #3a3e64;
+	}
+	#contact .row p i {
+		width: 15%;
+		color: white;
+		border: 2px solid white;
+		border-radius: 2px;
+		padding: 5px;
+	}
+	#footer {
+		background-color: #313454;
+	}
+/*contact*/
